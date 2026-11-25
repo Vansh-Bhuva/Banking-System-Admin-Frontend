@@ -4,6 +4,7 @@ import { adminLogout } from "../../features/adminAuth/adminAuthSlice";
 import {
   LayoutDashboard,
   Users,
+  UserPlus,
   ShieldCheck,
   CreditCard,
   ArrowLeftRight,
@@ -18,6 +19,7 @@ import {
 const menu = [
   { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
   { name: "Users", path: "/users", icon: Users },
+  { name: "Account Requests", path: "/account-requests", icon: UserPlus },
   { name: "KYC Queue", path: "/kyc", icon: ShieldCheck },
   { name: "Accounts", path: "/accounts", icon: CreditCard },
   { name: "Transactions", path: "/transactions", icon: ArrowLeftRight },

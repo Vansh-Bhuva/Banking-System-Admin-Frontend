@@ -5,6 +5,7 @@ import AdminProtectedRoute from "./AdminProtectedRoute";
 import AdminDashboard from "../pages/dashboard/AdminDashboard";
 import UserList from "../pages/users/UserList";
 import KycQueue from "../pages/kyc/KycQueue";
+import AccountRequests from "../pages/accountRequests/AccountRequests";
 import AccountList from "../pages/accounts/AccountList";
 import AccountDetail from "../pages/accounts/AccountDetail";
 import TransactionList from "../pages/transactions/TransactionList";
@@ -25,6 +26,7 @@ function AppRoutes() {
             <Route path="/dashboard" element={<AdminDashboard />} />
             <Route path="/users" element={<UserList />} />
             <Route path="/kyc" element={<KycQueue />} />
+            <Route path="/account-requests" element={<AccountRequests />} />
             <Route path="/accounts" element={<AccountList />} />
             <Route path="/accounts/:accountNumber" element={<AccountDetail />} />
             <Route path="/transactions" element={<TransactionList />} />
